@@ -55,6 +55,7 @@
   border: none;
   font-size: 18px;
   margin: 5px;
+  border-radius: 10px;
 }
 .btn-discover {
   background-color: red;
@@ -169,22 +170,28 @@
   width: 90px;
   padding-right: 30px;
 }
-.call-deatils {
+.call-details {
   margin-left: 20px;
   padding-right: 60px;
+  border-right: 2px solid gray;
 }
 .phone-call h5 {
   margin: auto;
 }
 .appointment-description p {
   width: 70%;
-  border-left: 2px solid gray;
+  margin: auto;
+  padding-top: 30px;
+  font-size: 17px;
 }
-.btn-service{
+.btn-service {
   padding: 15px 35px;
   border: none;
   border-radius: 25px;
+  line-height: 15px;
+  margin-top: 30px;
 }
+
 /* card section */
 .blog-card {
   display: flex;
@@ -224,58 +231,48 @@
   margin: 0 0 20px 15px;
 }
 
-
 /* footer section */
-.footer{
-  height: 60vh;
+.footer {
+  height: 65vh;
   background-color: rgb(12, 11, 11);
   color: white;
 }
-.footer-container{
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 90px;
- margin-top: 70px;
- padding: 100px 0px;
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  margin-top: 70px;
+  padding: 100px 0px 70px 0px;
 }
-.first-footer-col img{
- 
-}
-.first-footer-col-description{
+.first-footer-col-description {
   margin-top: 10px;
 }
-.footer-icon{
- margin: 25px 0px;
- display: flex;
- gap: 15px;
+
+.footer-icon {
+  margin: 25px 0px;
+  display: flex;
+  gap: 15px;
 }
-.footer-icon i{
-  
+.footer-titel {
+  padding-bottom: 30px;
+  margin-top: 30px;
 }
-.second-footer-col-titel{
+
+.ul-li {
   margin-bottom: 30px;
 }
-.second-footer-col ul li{
+.ul-li li {
   list-style-type: none;
+  padding-top: 10px;
 }
-.third-footer-col-titel{
-  margin-bottom: 30px;
+.footer-hr {
+  width: 70%;
+  position: absolute;
+  left: 15%;
 }
-.third-footer-col ul li{
-  list-style-type: none;
-}
-.fourth-footer-col-titel{
-  margin-bottom: 30px;
-}
-.fourth-footer-col ul li{
-  list-style-type: none;
-}
-.footer-hr{
-  
-  width: 80%;
-  
-}
-.footer-copyright{
+.footer-copyright {
+  padding-top: 30px;
   text-align: center;
+  font-size: 14px;
 }
